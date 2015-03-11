@@ -2,83 +2,59 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>SVG PROJECT modified</title>
+<title>SVG PROJECT</title>
 <style type="text/css">
-
-	body {
-		background-color:black;
-	}
-
-	@keyframes mymove {
-		from {fill:url(#SVGID_1_);}
-		to {fill:url(#SVGID_5_);}
-	}
-
-	@-webkit-keyframes mymove {
-		from {fill:url(#SVGID_1_);}
-		to {fill:url(#SVGID_5_);}
-	}
-
-	.st0 {
-		opacity:0.8;
-    animation: mymove 0.8s infinite;
-		-webkit-animation: mymove 0.8s infinite;
-	}
-
-	.st1 {fill:url(#SVGID_2_);}
-
-	.st2 {
-		animation: mymove 0.8s infinite;
-		-webkit-animation: mymove 0.8s infinite;
-	}
-
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:url(#SVGID_2_);}
+	.st2{fill:url(#SVGID_3_);}
 	.st3{fill:url(#SVGID_4_);}
-
-	.st4 {
-		fill:url(#SVGID_5_);
-		animation: mymove 0.7s infinite;
-		-webkit-animation: mymove 0.7s infinite;
-	}
-
+	.st4{fill:url(#SVGID_5_);}
 	.st5{fill:none;}
-
-	.st6 {
-		enable-background:new;
-		fill: white;
-		transition-property: transform;
-		-webkit-transition-property: transform;
-		transition-duration: 0.8s;
-		-webkit-transition-duration: 0.8s;
-		transition-delay:0.2s;
-		-webkit-transition-delay:0.2s;
+	.st6{enable-background:new;}
+	.st0:hover, .st2:hover, .st6:hover {
+			opacity: 0.5;
+			fill: yellow;
 	}
-
-	.st6:hover {
-		transform:translate(-800px);
-		-webkit-transform: translate(-800px);
+	.st0:active, .st2:active, .st6:active {
+			opacity: 0.5;
+			fill: red;
 	}
-
+	
 </style>
 </head>
-
+	
 <body>
-
+			
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="640px" height="480px" viewBox="0 0 640 480" style="enable-background:new 0 0 640 480;" xml:space="preserve">
 
 <g id="other">
-
+	
 		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="88.256" y1="62.3025" x2="467.326" y2="62.3025" gradientTransform="matrix(1 0 0 -1 -76 415)">
-			<stop  offset="0" style="stop-color:blue"/>
-			<stop  offset="0.5" style="stop-color:aqua"/>
-			<stop  offset="1" style="stop-color:cyan"/>
+		<stop  offset="0.0574" style="stop-color:#000000"/>
+		<stop  offset="0.4015" style="stop-color:#B26746"/>
+		<stop  offset="0.5737" style="stop-color:#F15A29"/>
+		<stop  offset="0.7218" style="stop-color:#F5C032"/>
+		<stop  offset="0.7921" style="stop-color:#F9ED32"/>
+		<stop  offset="0.9118" style="stop-color:#F7B724"/>
+		<stop  offset="1" style="stop-color:#F7941E"/>
 	</linearGradient>
-<rect x="12.256" y="315.488" class="st0" width="379.07" height="74.419">
+	<rect x="12.256" y="315.488" class="st0" width="379.07" height="74.419">
+		<animateTransform
+			attributeName="transform"
+			begin="0s"
+			dur="3s"
+			type="rotate"
+			from="0 379.07 74.419"
+			to="360 379.07 74.419"
+			repeatCount="indefibite" />
+			
 	</rect>
-
+	
 		<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="535.93" y1="269.279" x2="537.093" y2="269.279" gradientTransform="matrix(1 0 0 -1 -76 415)">
 		<stop  offset="0" style="stop-color:#F9ED32"/>
-		<stop  offset="0.5" style="stop-color:#F9D938"/>
+		<stop  offset="0.2837" style="stop-color:#F9D938"/>
+		<stop  offset="0.9563" style="stop-color:#FBB040"/>
 		<stop  offset="1" style="stop-color:#F7941E"/>
 	</linearGradient>
 	<polygon class="st1" points="459.93,145.721 461.093,145.721 461.093,145.721 	"/>
@@ -86,8 +62,15 @@
 
 <a xlink:href="http://i6.cims.nyu.edu/~xw525">
 <g id="another">
-	<rect x="349.756" y="80" class="st2" width="187.791" height="300"/>
-
+	
+		<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="425.756" y1="209.977" x2="613.547" y2="209.977" gradientTransform="matrix(1 0 0 -1 -76 415)">
+		<stop  offset="0" style="stop-color:#ED1C24"/>
+		<stop  offset="0.425" style="stop-color:#BE1E2D"/>
+		<stop  offset="0.7053" style="stop-color:#DB6928"/>
+		<stop  offset="0.9118" style="stop-color:#F7941E"/>
+	</linearGradient>
+	<rect x="349.756" y="119.558" class="st2" width="187.791" height="170.93"/>
+	
 		<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="613.547" y1="124.512" x2="613.547" y2="124.512" gradientTransform="matrix(1 0 0 -1 -76 415)">
 		<stop  offset="0" style="stop-color:#BE1E2D"/>
 		<stop  offset="0.4522" style="stop-color:#EF4136"/>
@@ -99,11 +82,12 @@
 </a>
 
 <g id="square">
-
+	
 		<linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="144.651" y1="256.9535" x2="442.325" y2="256.9535" gradientTransform="matrix(1 0 0 -1 -76 415)">
-			<stop  offset="0" style="stop-color:crimson"/>
-			<stop  offset="0.5" style="stop-color:pink"/>
-			<stop  offset="1" style="stop-color:white"/>
+		<stop  offset="0" style="stop-color:#F9ED32"/>
+		<stop  offset="0.2837" style="stop-color:#F9D938"/>
+		<stop  offset="0.9563" style="stop-color:#FBB040"/>
+		<stop  offset="1" style="stop-color:#F7941E"/>
 	</linearGradient>
 	<rect x="68.651" y="48.744" class="st4" width="297.674" height="218.605"/>
 </g>
